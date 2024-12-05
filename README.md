@@ -4,13 +4,13 @@ This report presents a data analysis conducted on a dataset containing informati
 ## Dataset: 
 The dataset
 
-<a href="https://github.com/ThinhThuong/Excel-Project---Coffee-Sales/blob/main/Project%20Coffee%20Sales.xlsx">Coffee Sale</a>
+<a href="https://github.com/ThinhThuong/Excel-Project---Coffee-Sales/blob/main/Project%20Coffee%20Sales.xlsx">Coffee Sales</a>
 include 3 sheets:
 - Sheet `customers`: customer information
 - Sheet `products`: coffee information
 - Sheet `order`: compile customer orders and calculate sales. Ensure that some columns are filled with the required data before proceeding with the sales calculations
 
-![image](https://github.com/user-attachments/assets/db42c570-0344-47c2-a087-bcdc4016e98d)
+![image](https://github.com/user-attachments/assets/3368abec-921d-4d10-b3ba-9df6be664fe2)
 
 ## Objective:
 Analyze coffee sales data across multiple years to identify trends, patterns, and key insights for business performance and decision-making
@@ -21,6 +21,26 @@ Analyze coffee sales data across multiple years to identify trends, patterns, an
 3. Who are the top 5 customers with the highest coffee purchases in 2022?
 
 ## Process:
+### 1. Fill data
+Start populating columns from **Customers Name** (Column F) to **Sales** (Column M) with the following instructions:
+
+* Column **Customers Name** and **Country**: Use the XLOOKUP function, where the lookup_array and return_array are sourced from the customers sheet.
+
+* Column **Email**: To handle blank values, use a combination of IF and XLOOKUP. Ensure that if the returned value is blank, the result is displayed as a blank value ("") instead of 0.
+
+![image](https://github.com/user-attachments/assets/2fa92484-5639-42af-9d6f-0f295a4aa4b0)
+
+
+
+
+
+
+
+
+
+
+
+
 ### 1. Eliminate Duplicate Records
 Start by removing duplicate rows to ensure the dataset is clean and accurate for analysis.
 
