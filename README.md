@@ -1,15 +1,19 @@
-# Bike Sale Data Analysis (using Excel)
+# Cofee Sale Data Analysis (using Excel)
 ## Introduction:
-This report presents a data analysis conducted on a dataset containing information about bike sales over a one-year period. 
+This report presents a data analysis conducted on a dataset containing information about cofee sales. 
 ## Dataset: 
 The dataset
-<a href="https://github.com/ThinhThuong/Excel-project/blob/main/1.%20Project%20Bike%20Sales.xlsx">Bike Sale</a>
-comprises 1027 rows (including a header row) and 13 columns.
 
-![image](https://github.com/user-attachments/assets/29978338-3e50-411b-9449-88e931f3e829)
+<a href="https://github.com/ThinhThuong/Excel-Project---Coffee-Sales/blob/main/Project%20Coffee%20Sales.xlsx">Coffee Sale</a>
+include 3 sheets:
+- Sheet `customers`: customer information
+- Sheet `products`: coffee information
+- Sheet `order`: compile customer orders and calculate sales. Ensure that some columns are filled with the required data before proceeding with the sales calculations
+
+![image](https://github.com/user-attachments/assets/790db195-336a-4b10-be8a-fd516be614d6)
 
 ## Objective:
-To identify potential target markets and ideal customer profiles to optimize sales strategies and attract more customers.
+Analyze coffee sales data across multiple years to identify trends, patterns, and key insights for business performance and decision-making
 
 ## Question:
 1. Which region has the highest bike sales?
