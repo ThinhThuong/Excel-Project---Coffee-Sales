@@ -10,16 +10,15 @@ include 3 sheets:
 - Sheet `products`: coffee information
 - Sheet `order`: compile customer orders and calculate sales. Ensure that some columns are filled with the required data before proceeding with the sales calculations
 
-![image](https://github.com/user-attachments/assets/790db195-336a-4b10-be8a-fd516be614d6)
+![image](https://github.com/user-attachments/assets/db42c570-0344-47c2-a087-bcdc4016e98d)
 
 ## Objective:
 Analyze coffee sales data across multiple years to identify trends, patterns, and key insights for business performance and decision-making
 
 ## Question:
-1. Which region has the highest bike sales?
-2. How does average income affect the decision to buy a bike?
-3. Is there a relationship between commute distance and bike purchases?
-4. Which age range has the highest number of bike buyers?
+1. Which country recorded the highest bike sales?
+2. What is the annual coffee sales performance for each year?
+3. Who are the top 5 customers with the highest coffee purchases in 2022?
 
 ## Process:
 ### 1. Eliminate Duplicate Records
