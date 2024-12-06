@@ -6,9 +6,9 @@ The dataset
 
 <a href="https://github.com/ThinhThuong/Excel-Project---Coffee-Sales/blob/main/Project%20Coffee%20Sales.xlsx">Coffee Sales</a>
 include 3 sheets:
-- Sheet `customers`: customer information
-- Sheet `products`: coffee information
-- Sheet `order`: compile customer orders and calculate sales. Ensure that some columns are filled with the required data before proceeding with the sales calculations
+- Sheet *customers*: customer information
+- Sheet *products*: coffee information
+- Sheet *order*: compile customer orders and calculate sales. Ensure that some columns are filled with the required data before proceeding with the sales calculations
 
 ![image](https://github.com/user-attachments/assets/3368abec-921d-4d10-b3ba-9df6be664fe2)
 
@@ -22,11 +22,11 @@ Analyze coffee sales data across multiple years to identify trends, patterns, an
 
 ## Process:
 ### 1. Fill data
-Start populating columns from **Customers Name** (Column F) to **Sales** (Column M) with the following instructions:
+Start populating columns from `Customers Name` (Column F) to `Sales` (Column M) with the following instructions:
 
-* Column **Customers Name** and **Country**: Use the XLOOKUP function, where the lookup_array and return_array are sourced from the customers sheet.
+* Column `Customers Name` and `Country`: Use the XLOOKUP function, where the lookup_array and return_array are sourced from the customers sheet.
 
-* Column **Email**: To handle blank values, use a combination of IF and XLOOKUP. Ensure that if the returned value is blank, the result is displayed as a blank value ("") instead of 0.
+* Column `Email`: To handle blank values, use a combination of IF and XLOOKUP. Ensure that if the returned value is blank, the result is displayed as a blank value ("") instead of 0.
 
 ![image](https://github.com/user-attachments/assets/2fa92484-5639-42af-9d6f-0f295a4aa4b0)
 
