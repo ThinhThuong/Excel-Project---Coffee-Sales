@@ -57,7 +57,7 @@ Start by removing duplicate rows to ensure the dataset is clean and accurate for
 - Build pivot tables based on specific questions and outline the key metrics.
 - Lay the groundwork for a simple dashboard to present data interactively.
 
-### 5. Design an Interactive Dashboard
+### 6. Design an Interactive Dashboard
 - Create a dedicated sheet for the dashboard.
 - Incorporate slicers to filter variables dynamically and uncover deeper insights.
 - Format the dashboard and slicers with a cohesive and professional theme to enhance visual appeal.
@@ -66,30 +66,50 @@ Start by removing duplicate rows to ensure the dataset is clean and accurate for
 
 ## Answer the questions:
 **1. Which country recorded the highest coffee sales?**
+
+![image](https://github.com/user-attachments/assets/2f0975a5-f386-4176-9684-1091d3bcbcac)
+
 From 2019 to 2022, the United States led global coffee sales with $35,639, a figure five times higher than Ireland's and twelve times higher than the United Kingdom's.
+
 **2. What is the annual coffee sales performance for each year?**
+
+![image](https://github.com/user-attachments/assets/cd18e618-36ac-4425-b0de-7ebcce7f9a4d)
+
+- During the period from 2019 to 2022, coffee sales showed an overall downward trend.
+
+- Robusta was the least popular coffee type, consistently recording the lowest sales compared to other types.
+
+- In 2019 and 2020, Exelsa had the highest sales, exceeding $3,400.
+
+- In 2021, Arabica became the most consumed coffee type, with sales reaching $4,046.
+
+- By 2022, coffee consumption declined significantly, with sales for all coffee types dropping to nearly half of the previous year's figures.
+
 **3. Who are the top 5 customers with the highest coffee purchases in 2022?**
 
+![image](https://github.com/user-attachments/assets/a803b2ba-5900-47fd-bcbf-e54acee68b84)
 
-
-**1. Which region has the highest bike sales?**
-- North America has the highest bike sales, followed by Europe and the Pacific.
-- In the Pacific and North America, males tend to buy more bikes than females, whereas in Europe, women purchase more bikes than men.
-
-**2. How does average income affect the decision to buy a bike?**
-- People who purchase bikes tend to have a significantly higher income than those who do not buy bikes, for both females and males.
-- The average income for female bike buyers is nearly $55,700, while the average income for male bike buyers is about $60,000.
-
-**3. Is there a relationship between commute distance and bike purchases?**
-- Most people who buy bikes have a commute distance of 0-1 miles.
-- People with a commute distance of 5 miles or more tend to avoid purchasing bikes.
-
-**4. Which age range has the highest number of bike buyers?**
-- The middle-aged group (31-54 years) has a significantly higher number of bike buyers compared to non-buyers.
-- In other age groups (adolescents and older adults), the number of people who do not buy bikes is higher than those who do.
+- In 2022, the United Kingdom had no representation in the top 5 coffee buyers: the top 4 customers were from the United States, while the 5th spot was held by a customer from Ireland.
+- The coffee purchases of the top 5 customers ranged from $164 to $205.
 
 ## Recommendations:
-- Target regions with lower sales potential: Given the high sales in North America, explore strategies to increase bike sales in regions like Europe and the Pacific, where there are gender-based purchasing differences.
-- Tailor marketing to income segments: Since higher income correlates with bike purchases, focus marketing efforts on individuals with disposable income. Highlight bikes as a practical and efficient investment, particularly in affluent areas.
-- Promote convenience for short commutes: Emphasize the benefits of bikes for shorter commutes, especially in urban areas, where biking can be a more efficient and eco-friendly alternative to cars.
-Develop products and services for middle-aged buyers: As middle-aged individuals are the largest group of bike buyers, consider offering bikes and related products that cater to their lifestyle, including comfortable designs, easy maintenance, and convenience for commuting.
+
+**1. Focus on Emerging Markets:**
+
+- Target countries with untapped potential, such as the United Kingdom, where representation in top coffee buyers is currently absent.
+- Conduct market research to identify and address barriers to coffee consumption in these regions.
+
+**2. Revitalize Coffee Consumption Across All Types:**
+
+- Launch promotional campaigns or limited-time offers to increase sales of underperforming coffee types like Robusta.
+- Highlight health benefits, unique flavors, or cultural associations of different coffee types to attract a diverse consumer base.
+
+**3. Leverage Top-performing Coffee Types:**
+
+- Build marketing campaigns around Exelsa and Arabica, focusing on their historical popularity and consumer appeal.
+- Develop new products or blends using these coffee types to spark renewed interest.
+
+**4. Expand and Incentivize High-value Customers:**
+
+- Introduce loyalty programs and discounts targeted at high-value customers to encourage repeat purchases.
+- Use personalized marketing to cater to the preferences of top buyers, particularly those in the United States and Ireland.
