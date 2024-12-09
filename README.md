@@ -3,7 +3,6 @@
 This report presents a data analysis conducted on a dataset containing information about cofee sales. 
 ## Dataset: 
 The dataset
-
 <a href="https://github.com/ThinhThuong/Excel-Project---Coffee-Sales/blob/main/Project%20Coffee%20Sales.xlsx">Coffee Sales</a>
 include 3 sheets:
 - Sheet *customers*: customer information
