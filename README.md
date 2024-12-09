@@ -24,18 +24,30 @@ Analyze coffee sales data across multiple years to identify trends, patterns, an
 ### 1. Fill data
 Start populating columns from `Customers Name` (Column F) to `Sales` (Column M) with the following instructions:
 
-* Column `Customers Name` and `Country`: Use the XLOOKUP function, where the lookup_array and return_array are sourced from the *customers* sheet.
+* Column `Customers Name` and `Country`: use the XLOOKUP function, where the lookup_array and return_array are sourced from the *customers* sheet.
 
-* Column `Email`: To handle blank values, use a combination of IF and XLOOKUP. Ensure that if the returned value is blank, the result is displayed as a blank value ("") instead of 0.
+* Column `Email`: to handle blank values, use a combination of IF and XLOOKUP. Ensure that if the returned value is blank, the result is displayed as a blank value ("") instead of 0.
 
 ![image](https://github.com/user-attachments/assets/2fa92484-5639-42af-9d6f-0f295a4aa4b0)
 
-* From column `Coffee Type` to `Unit Price`: using INDEX function instead of XLOOKUP to fill value from *products* sheet.
+* From column `Coffee Type` to `Unit Price`: use INDEX function instead of XLOOKUP to fill value from *products* sheet.
 
 ![image](https://github.com/user-attachments/assets/acbc439f-7af5-4f0b-b26f-53309e745d93)
 
 * Column `Sales`: calculate Sales = Unit Price * Size
-* 
+* Column `Loyalty Card` is added: use the XLOOKUP function, where the lookup_array and return_array are sourced from the *customers* sheet.
+
+### 2. Simplify Confusing Values
+Replace ambiguous values in the columns `Coffee Type` and `Roast Type` for better readability:
+- For `Coffee Type`: Ara => Arabica, Exc => Excelsa, Rob => Robusta, Lib => Liberica
+- For `Roast Type`: L => Light, M => Medium, D => Dark
+
+### 3. Format data type
+- Format date data: for column `Order Date`, convert the original format (e.g., 05-09-19) to a clear format with the dd-mmm-yyyy style. For example, 05-09-19 becomes 05-Sep-2019.
+- Format decimal places and add unit:
+  * Column `Size`: adjust values to 1 decimal place and append the unit *kg*
+  * Column `Unit Price` and `Sales`: adjust values to 2 decimal places and append the unit *$*
+
 
 
 
