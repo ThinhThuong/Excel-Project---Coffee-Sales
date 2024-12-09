@@ -50,12 +50,19 @@ For example, 05-09-19 becomes 05-Sep-2019.
   * Column `Unit Price` and `Sales`: adjust values to 2 decimal places and append the unit *$*
  
 ### 4. Eliminate Duplicate Records
-Start by removing duplicate rows to ensure the dataset is clean and accurate for analysis. 
+
+Begin by removing duplicate rows to ensure the dataset is clean and accurate for analysis.
+
+Once duplicates are removed, the final dataset will be prepared and formatted for data visualization, as illustrated in the image below.
+
+![image](https://github.com/user-attachments/assets/4c5082d8-a1bb-4c7b-a3f2-086e32db6a05)
 
 ### 5. Create Pivot Tables for Insights
 - Dedicate a separate sheet for pivot tables to facilitate easy updates and adjustments.
 - Build pivot tables based on specific questions and outline the key metrics.
 - Lay the groundwork for a simple dashboard to present data interactively.
+
+![image](https://github.com/user-attachments/assets/5b347ffd-c318-45a9-9f2f-af859fc788b2)
 
 ### 6. Design an Interactive Dashboard
 - Create a dedicated sheet for the dashboard.
