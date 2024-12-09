@@ -43,10 +43,14 @@ Replace ambiguous values in the columns `Coffee Type` and `Roast Type` for bette
 - For `Roast Type`: L => Light, M => Medium, D => Dark
 
 ### 3. Format data type
-- Format date data: for column `Order Date`, convert the original format (e.g., 05-09-19) to a clear format with the dd-mmm-yyyy style. For example, 05-09-19 becomes 05-Sep-2019.
+- Format date data: for column `Order Date`, convert the original format (e.g., 05-09-19) to a clear format with the dd-mmm-yyyy style.
+For example, 05-09-19 becomes 05-Sep-2019.
 - Format decimal places and add unit:
   * Column `Size`: adjust values to 1 decimal place and append the unit *kg*
   * Column `Unit Price` and `Sales`: adjust values to 2 decimal places and append the unit *$*
+ 
+### 4. Eliminate Duplicate Records
+Start by removing duplicate rows to ensure the dataset is clean and accurate for analysis. 
 
 
 
@@ -84,7 +88,7 @@ Add a new column, “Age Bracket”, to store these categories for enhanced inte
 - Build pivot tables based on specific questions and outline the key metrics.
 - Lay the groundwork for a simple dashboard to present data interactively.
 
-![image](https://github.com/user-attachments/assets/b425a221-16d0-4f53-971c-34a2a7fd3fd7)
+![image](https://github.com/user-attachments/assets/c077ba26-00f6-4f49-927e-463a85fbbd5e)
 
 ### 5. Design an Interactive Dashboard
 - Create a dedicated sheet for the dashboard.
@@ -95,7 +99,9 @@ Add a new column, “Age Bracket”, to store these categories for enhanced inte
 
 ## Answer the questions:
 
-![image](https://github.com/user-attachments/assets/3b2a2e04-b396-48eb-9335-4cf27eb9fc7e)
+![image](https://github.com/user-attachments/assets/6a138978-4ca4-4ea1-8027-9b4f4cc17769)
+
+
 **1. Which region has the highest bike sales?**
 - North America has the highest bike sales, followed by Europe and the Pacific.
 - In the Pacific and North America, males tend to buy more bikes than females, whereas in Europe, women purchase more bikes than men.
