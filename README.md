@@ -20,7 +20,7 @@ Analyze coffee sales data across multiple years to identify trends, patterns, an
 3. Who are the top 5 customers with the highest coffee purchases in 2022?
 
 ## Process:
-### 1. Fill data
+### 1. Fill Data
 Start populating columns from `Customers Name` (Column F) to `Sales` (Column M) with the following instructions:
 
 * Column `Customers Name` and `Country`: use the XLOOKUP function, where the lookup_array and return_array are sourced from the *customers* sheet.
@@ -41,7 +41,7 @@ Replace ambiguous values in the columns `Coffee Type` and `Roast Type` for bette
 - For `Coffee Type`: Ara => Arabica, Exc => Excelsa, Rob => Robusta, Lib => Liberica
 - For `Roast Type`: L => Light, M => Medium, D => Dark
 
-### 3. Format data type
+### 3. Format Data Type
 - Format date data: for column `Order Date`, convert the original format (e.g., 05-09-19) to a clear format with the dd-mmm-yyyy style.
 For example, 05-09-19 becomes 05-Sep-2019.
 - Format decimal places and add unit:
