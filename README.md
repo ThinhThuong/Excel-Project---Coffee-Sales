@@ -16,7 +16,7 @@ include 3 sheets:
 Analyze coffee sales data across multiple years to identify trends, patterns, and key insights for business performance and decision-making
 
 ## Question:
-1. Which country recorded the highest bike sales?
+1. Which country recorded the highest coffee sales?
 2. What is the annual coffee sales performance for each year?
 3. Who are the top 5 customers with the highest coffee purchases in 2022?
 
@@ -52,54 +52,24 @@ For example, 05-09-19 becomes 05-Sep-2019.
 ### 4. Eliminate Duplicate Records
 Start by removing duplicate rows to ensure the dataset is clean and accurate for analysis. 
 
-
-
-
-
-
-
-
-
-
-
-
-### 1. Eliminate Duplicate Records
-Start by removing duplicate rows to ensure the dataset is clean and accurate for analysis.
-
-### 2. Simplify Confusing Values
-Replace ambiguous values in the columns “Marital Status” and “Gender” for better readability:
-- Convert M to Married and S to Single.
-- Convert F to Female and M to Male.
-Example: Change M in Marital Status to Married for clarity.
-
-### 3. Group Age into Categories
-Simplify the continuous Age feature by grouping it into meaningful categories:
-- Adolescent (<31 years)
-- Middle Age (31–54 years)
-- Old (>54 years)
-- Invalid (if age falls outside these ranges)
-
-Add a new column, “Age Bracket”, to store these categories for enhanced interpretability.
-
-![image](https://github.com/user-attachments/assets/da986eb8-b62b-4ab3-b839-2f1638f51f5a)
-
-### 4. Create Pivot Tables for Insights
+### 5. Create Pivot Tables for Insights
 - Dedicate a separate sheet for pivot tables to facilitate easy updates and adjustments.
 - Build pivot tables based on specific questions and outline the key metrics.
 - Lay the groundwork for a simple dashboard to present data interactively.
-
-![image](https://github.com/user-attachments/assets/c077ba26-00f6-4f49-927e-463a85fbbd5e)
 
 ### 5. Design an Interactive Dashboard
 - Create a dedicated sheet for the dashboard.
 - Incorporate slicers to filter variables dynamically and uncover deeper insights.
 - Format the dashboard and slicers with a cohesive and professional theme to enhance visual appeal.
 
-<a href="https://github.com/ThinhThuong/Excel-project/blob/main/Interactive%20Dashboard.gif">View interactive dashboard</a>
+<a href="https://github.com/ThinhThuong/Excel-Project---Coffee-Sales/blob/main/Interactive%20dashboard%20-%20Coffee%20Sales.gif">View interactive dashboard</a>
 
 ## Answer the questions:
+**1. Which country recorded the highest coffee sales?**
+From 2019 to 2022, the United States led global coffee sales with $35,639, a figure five times higher than Ireland's and twelve times higher than the United Kingdom's.
+**2. What is the annual coffee sales performance for each year?**
+**3. Who are the top 5 customers with the highest coffee purchases in 2022?**
 
-![image](https://github.com/user-attachments/assets/6a138978-4ca4-4ea1-8027-9b4f4cc17769)
 
 
 **1. Which region has the highest bike sales?**
